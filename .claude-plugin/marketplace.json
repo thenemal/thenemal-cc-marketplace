@@ -25,6 +25,16 @@
         "sha": "dd7a3dc289c73b40a9c2b5cebdf3bbbf5f56a382"
       },
       "category": "devops"
+    },
+    {
+      "name": "ai-permission-hook",
+      "description": "LLM-evaluated permission hook for Claude Code — auto-approves safe operations, blocks destructive commands, delegates ambiguous decisions to a lightweight LLM",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thenemal/ai-permission-hook.git",
+        "sha": "6d28dbc1ccba5f1c8c8f58467ffbd12de19f8382"
+      },
+      "category": "devops"
     }
   ]
 }
