@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "seb-plugins",
+  "description": "Personal Claude Code plugins — tax tools, bot operations, and more",
+  "owner": {
+    "name": "Sebastian Plouzeau"
+  },
+  "plugins": [
+    {
+      "name": "tax-tools",
+      "description": "Tax data analysis skills for Claude Code — query taxbot's SQLite DB directly for readiness reviews, free-form analysis, and anomaly scans",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thenemal/tax-assistant.git",
+        "sha": "ccf9d8c504f1d9f1b9023fd1515f5420d302cdce"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "bot-ops",
+      "description": "Bot operations skills — status, logs, restart, and deploy for Matrix bots managed by botnificent-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thenemal/botnificent-manager.git",
+        "sha": "dd7a3dc289c73b40a9c2b5cebdf3bbbf5f56a382"
+      },
+      "category": "devops"
+    }
+  ]
+}
