@@ -27,6 +27,16 @@
       "category": "devops"
     },
     {
+      "name": "finance-tools",
+      "description": "Finance data analysis skills for Claude Code — query financebot's SQLite DB directly for free-form lookups, monthly reviews, and anomaly scans",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thenemal/personal-finance.git",
+        "sha": "0a82f586cf814bd4a7ee760359c1f5501c879add"
+      },
+      "category": "productivity"
+    },
+    {
       "name": "ai-permission-hook",
       "description": "LLM-evaluated permission hook for Claude Code — auto-approves safe operations, blocks destructive commands, delegates ambiguous decisions to a lightweight LLM",
       "source": {
