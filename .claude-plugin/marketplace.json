@@ -28,11 +28,11 @@
     },
     {
       "name": "finance-tools",
-      "description": "Finance data analysis skills for Claude Code — query financebot's SQLite DB directly for free-form lookups, monthly reviews, and anomaly scans",
+      "description": "Finance data skills for Claude Code — query financebot's SQLite DB directly for free-form lookups, monthly reviews, anomaly scans, and bank sync",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/personal-finance.git",
-        "sha": "0a82f586cf814bd4a7ee760359c1f5501c879add"
+        "sha": "f47e5b719598cae4e3a63ac5e9313a6824eec101"
       },
       "category": "productivity"
     },
