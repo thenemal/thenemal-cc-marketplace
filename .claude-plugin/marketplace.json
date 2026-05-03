@@ -45,6 +45,16 @@
         "sha": "6d28dbc1ccba5f1c8c8f58467ffbd12de19f8382"
       },
       "category": "devops"
+    },
+    {
+      "name": "house-tools",
+      "description": "House search skills for Claude Code and Cowork — analyze, compare, budget, add-house, and criteria workflows for Seb and Penda's NYC home search. Pairs with the housebot Matrix bot which uses the same prompts directly.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thenemal/house-search-assistant.git",
+        "sha": "6dbb0708783831888aabd615d98bd753ae36e324"
+      },
+      "category": "productivity"
     }
   ]
 }
