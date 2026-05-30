@@ -1,14 +1,14 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "seb-plugins",
-  "description": "Personal Claude Code plugins — tax tools, bot operations, and more",
+  "description": "Personal Claude Code plugins \u2014 tax tools, bot operations, and more",
   "owner": {
     "name": "Sebastian Plouzeau"
   },
   "plugins": [
     {
       "name": "tax-tools",
-      "description": "Tax data analysis skills for Claude Code — query taxbot's SQLite DB directly for readiness reviews, free-form analysis, and anomaly scans",
+      "description": "Tax data analysis skills for Claude Code \u2014 query taxbot's SQLite DB directly for readiness reviews, free-form analysis, and anomaly scans",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/tax-assistant.git",
@@ -18,7 +18,7 @@
     },
     {
       "name": "bot-ops",
-      "description": "Bot operations skills — status, logs, restart, and deploy for Matrix bots managed by botnificent-manager",
+      "description": "Bot operations skills \u2014 status, logs, restart, and deploy for Matrix bots managed by botnificent-manager",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/botnificent-manager.git",
@@ -28,17 +28,18 @@
     },
     {
       "name": "finance-tools",
-      "description": "Finance data skills for Claude Code — query financebot's SQLite DB directly for free-form lookups, monthly reviews, anomaly scans, bank sync, bulk categorization plans, and Splitwise summaries",
+      "description": "Finance data skills for Claude Code \u2014 query financebot's SQLite DB directly for free-form lookups, monthly reviews, anomaly scans, bank sync, bulk categorization plans, and Splitwise summaries",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/personal-finance.git",
-        "sha": "98769b9e8f7f26b27c1b4cc9ee2475ecb2cbaea7"
+        "sha": "98769b9e8f7f26b27c1b4cc9ee2475ecb2cbaea7",
+        "commit": "f6164b7850d18c20857b26fdb708ebd2360bd899"
       },
       "category": "productivity"
     },
     {
       "name": "ai-permission-hook",
-      "description": "LLM-evaluated permission hook for Claude Code — auto-approves safe operations, blocks destructive commands, delegates ambiguous decisions to a lightweight LLM",
+      "description": "LLM-evaluated permission hook for Claude Code \u2014 auto-approves safe operations, blocks destructive commands, delegates ambiguous decisions to a lightweight LLM",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/ai-permission-hook.git",
@@ -48,7 +49,7 @@
     },
     {
       "name": "house-tools",
-      "description": "House search skills for Claude Code and Cowork — analyze, compare, budget, add-house, criteria, and budget-refresh workflows for Seb and Penda's NYC home search. Pairs with the housebot Matrix bot which uses the same prompts directly. (budget-refresh is host-only: needs docker access to the financebot/taxbot containers on CT 111.)",
+      "description": "House search skills for Claude Code and Cowork \u2014 analyze, compare, budget, add-house, criteria, and budget-refresh workflows for Seb and Penda's NYC home search. Pairs with the housebot Matrix bot which uses the same prompts directly. (budget-refresh is host-only: needs docker access to the financebot/taxbot containers on CT 111.)",
       "source": {
         "source": "url",
         "url": "https://github.com/thenemal/house-search-assistant.git",
